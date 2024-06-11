@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+
+    <main>
+        <section id="destination">
+            <h2>Choose Your Destination</h2>
+            <select id="countrySelect">
+                <option value="">Select Country</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="france">France</option>
+                <!-- Add more countries as needed -->
+            </select>
+        </section>
+
+        <section id="hotels">
+            <h2>Available Hotels</h2>
+            <div id="hotelList">
+                <!-- Hotel results will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hotel Booking Raffaloka</p>
+    </footer>
+
+    <script src="hotel.js"></script>
+</body>
+</html>
